@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(125, 237, 158);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main{
+
+width: 100%;
+height: 100vh;
+}
+.main-section{
+    width: 96.5%;
+    background-color: white;
+    height: 93%;
+    border: 1px solid rgb(131, 215, 131);
+    margin-top: 22px;
+    margin-left: 1.4rem;
+    border-radius: 26px;
+    box-shadow: inset  1px 1px 1px 1px rgb(60, 214, 60);   
+}
+.nav-bar{
+    height: 5rem;
+    border-bottom: 1.5px solid rgb(125, 237, 158);
+    width: 92%;
+    margin: auto;
+}
+.nav-bar img{
+    width: 33px;
+    height: 33px;
+    margin-left: 2rem;
+    margin-top: 25px;
+
+}
+.nav-bar p{
+    margin-top: -28px;
+    margin-left: 4.6rem;
+    color: rgb(4, 252, 78);
+
+}
+.search-bar{
+    margin-left: 17rem;
+    margin-top: -3rem;
+    display: flex;
+   
+    
+}
+#search{
+width: 28rem;
+height: 2.3rem;
+border-radius: 10px;
+box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(156, 188, 156); 
+border:transparent;  
+}
+.fa-magnifying-glass{
+    margin-left: -2rem;
+    color: rgb(98, 161, 98);
+    margin-top: 0.5rem;
+}
+.fa-magnifying-glass:hover{
+color: rgb(4, 244, 4);
+}
+.fa-bell{
+    font-size: 25px;
+    margin-left: 15rem;
+    color: rgb(130, 129, 129);
+}
+.fa-gear{
+    font-size: 25px;
+    margin-left: 3rem;
+    color: rgb(130, 129, 129);
+}
+.search-bar img{
+    width: 42px;
+    height: 42px;
+    margin-top: -6px;
+    margin-left: 2rem;
+
+}
+.fa-caret-down{
+    font-size: 30px;
+    margin-left: 2rem;
+    color: rgb(130, 129, 129);
+}
+.fa-caret-down:hover{
+color:rgb(8, 213, 8);
+}
+.search-bar2{
+height: 4rem;
+ width: 92%;
+margin: auto;
+border-bottom: 1.5px solid rgb(167, 237, 188);
+border-left: 1.5px solid rgb(167, 237, 188);
+border-right: 1.5px solid rgb(167, 237, 188);
+border-bottom-left-radius: 17px;
+border-bottom-right-radius: 17px;
+background-color: rgb(248, 246, 246);
+box-shadow: inset  5px 0 5px rgba(0, 0, 0, 0.2), /* Left shadow */
+0 5px 5px rgba(0, 0, 0, 0.2);
+display: flex;
+flex-direction: row;
+
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 8rem;
+    margin-left: 9rem;
+}
+.fa-house{
+    width: 35px;
+    height: 26px;
+    border-radius: 1px solid;
+    background-color: rgb(131, 215, 131);
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;padding-top: 9px;
+    border-radius: 6px;
+    color: rgb(130, 129, 129);
+    
+}
+.fa-star{
+    width: 35px;
+    height: 26px;
+    border-radius: 1px solid;
+    background-color: rgb(131, 215, 131);
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;padding-top: 9px;
+    border-radius: 6px;
+    color: rgb(130, 129, 129);
+}
+.fa-paste{
+    width: 35px;
+    height: 26px;
+    border-radius: 1px solid;
+    background-color: rgb(131, 215, 131);
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;padding-top: 9px;
+    border-radius: 6px;
+    color: rgb(130, 129, 129); 
+}
+.fa-chart-simple{
+    width: 35px;
+    height: 26px;
+    border-radius: 1px solid;
+    background-color: rgb(131, 215, 131);
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;padding-top: 9px;
+    border-radius: 6px;
+    color: rgb(130, 129, 129); 
+}
+.fa-people-group{
+    width: 35px;
+    height: 26px;
+    border-radius: 1px solid;
+    background-color: rgb(131, 215, 131);
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;padding-top: 9px;
+    border-radius: 6px;
+    color: rgb(130, 129, 129);
+}
+.fa-clipboard{
+    width: 35px;
+    height: 26px;
+    border-radius: 1px solid;
+    background-color: rgb(131, 215, 131);
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;padding-top: 9px;
+    border-radius: 6px;
+    color: rgb(130, 129, 129); 
+}
+.main-section2{
+    height: 6.5rem;
+    
+    width: 92%;
+    margin-top: 2.8rem;
+    margin-left: 3.2rem;
+    line-height: 3.4px;
+}
+.main-section2 p:nth-child(1){
+    font-size: 23px;
+    font-weight: 700;
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-left: 11rem;
+    margin-top: -3.1rem;
+}
+.box1,
+.box2,
+.box3{
+width: 16rem;
+height: 3rem;
+background-color:  rgb(131, 215, 131);
+border-radius: 24px;
+}
+.fa-bowl-food,
+.fa-plate-wheat{
+    width: 35px;
+    height: 35px;
+    margin-top: 14px;
+    margin-left: 1.5rem;
+}
+.box1 p,
+.box2 p,
+.box3 p{
+    margin-top: -20px;
+    margin-left: 3rem;
+    margin-top: -28px;
+    box-shadow: inset 1px 1px 1px 1px solid black
+
+}
+.image img{
+    width: 90%;
+    height: 300px;
+}

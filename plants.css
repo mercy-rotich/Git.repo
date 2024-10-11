@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: green;
+}
+.main{
+    width: 96%;
+    height: 94vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 1.3rem;
+    
+}
